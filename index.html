@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fantasy World</title>
     <link rel="stylesheet" type="text/css" href="fantasy.css" media="screen" />
+    <script>
+        function escrevenoconsole(txt){
+            console.log(txt);
+        }
+        
+    </script>
 </head>
 <body>
     <center>
@@ -14,11 +20,13 @@
 
         <h2>Você deseja iniciar a sua aventura?</h2>
 
-        <button>Sim</button>
-        <button>Não</button>
+        <button onclick="console.log('Bem-Vindo')">Sim</button>
+        <button onclick="escrevenoconsole('Que pena!')">Não</button>
+        <br>
         <br>
         <button>Login</button>
         <button>Exit</button>
+        <span id="spanmensagem">?</span>
 
     </center>
 

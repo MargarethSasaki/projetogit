@@ -3,9 +3,21 @@ body{
     text-align: center;
 }
 h1{
-    color: blue;
+    color: black;
+    border: dotted;
+    background-color:lightsalmon;
+    
+
     
 }
+h2{
+    color:indianred;
+    text-decoration:underline;
+    
+}
+
 button{
-    background-color: aqua;
+    color:mintcream;
+    background-color:coral;
+    border-color:coral;
 }
